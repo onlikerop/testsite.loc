@@ -54,7 +54,7 @@ $_SESSION['allowed'] = "no";
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Смена титула пользователей TestSite.loc</title>
+<title>Смена статуса пользователей TestSite.loc</title>
 <link href="http://testsite.loc/styles/toadminstyle.css" type="text/css" rel="stylesheet">
 </head>
 <?php
