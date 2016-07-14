@@ -1,0 +1,149 @@
+body
+{
+    font:  11px Verdana, sans-serif;
+    color:  #2C2B2C;
+    background-color: #90A0B2;
+    background-image: url(../files/images/background.jpg);
+}
+.back
+{
+    
+    text-align: center;
+    
+}
+
+.copyright
+{
+    text-align: center;
+    font-size: 12px;
+    font-family: Courier New, Lucida Console, monospace;
+    color: #000000;
+    font-weight: bold;
+}
+
+p
+{
+    font:16.7px Verdana, sans-serif;
+    line-height: 1.15;
+}
+
+#good
+{
+    
+    font-weight: bold;
+    
+}
+
+a:link, a:visited, a:hover
+{
+    color:#7265AB;
+    text-decoration: none;
+}
+
+a:active
+{
+    color:#E40935;
+    text-decoration: none;
+}
+
+textarea
+{
+    
+    font:  11px Verdana, sans-serif;
+    border: 1px solid #555555;
+    background-color: #C1D9FC;
+    width: 400px;
+    height: 100px;
+}
+
+.input
+{
+    
+    font:  11px Verdana, sans-serif;
+    height: 25px;
+    border: 1px solid #555555;
+    background-color: #E5F0FF;
+    background-image: url(../files/images/toadmin/background.jpg);
+    
+}
+
+.input:focus, textarea:focus
+{
+    
+    font:  11px Verdana, sans-serif;
+    border: 2px solid #555555;
+    background: none;
+    background-color: #E5F0FF; 
+}
+
+.root
+{
+    color: #E78B15;
+    font-weight: bold;
+}
+
+.MAdmin
+{
+    color:#FF0000;
+    font-weight: bold;
+}
+
+.Admin
+{
+    color:#FF4747;
+    font-weight: bold;
+}
+
+.MModer
+{
+    color:#2A5FFF;
+    font-weight: bold;
+}
+
+.Moder
+{
+    color:#00D0FF;
+    font-weight: normal;
+}
+
+.MEditor
+{
+    color:#FFDD00;
+    font-weight: normal;
+}
+
+.Editor
+{
+    color: #F4E009;
+    font-weight: normal;
+}
+
+.User
+{
+   color: #0881A3;
+   font-weight: normal; 
+}
+
+.Premium
+{
+   color: #758BCE;
+   font-weight: normal;
+}
+
+.Gooder
+{
+   color: #35CD44;
+   font-weight: normal;
+}
+
+.Helper
+{
+   color: #0068E7;
+   font-weight: normal;
+}
+
+.Writer
+{
+    color: #DEC100;
+    font-weight: normal;
+}

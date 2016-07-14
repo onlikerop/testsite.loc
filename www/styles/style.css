@@ -1,0 +1,192 @@
+h3
+{
+    color:#696969;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Comic Sans MS, cursive;
+    
+}
+
+.red
+{
+    color:#FF0000;
+}
+
+.blue
+{
+    color:#0000FF;
+}
+
+.green
+{
+    color:#00FF00;
+}
+
+a:link, a:visited, a:hover
+{
+    color:#7265AB;
+    text-decoration: none;
+}
+
+a:active
+{
+    color:#E40935;
+    text-decoration: none;
+}
+p
+{
+    font-family: Lucida Console, Courier New, Verdana, monospace;
+    font-size: 16.7px;
+    text-indent: 20px;
+    line-height: 1.15;
+}
+
+ol
+{
+    font-family: Courier New, Verdana, monospace;
+    font-size: 16.7px;
+}
+
+.back
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.root
+{
+    color: #E78B15;
+    font-weight: bold;
+}
+
+.MAdmin
+{
+    color:#FF0000;
+    font-weight: bold;
+}
+
+.Admin
+{
+    color:#FF4747;
+    font-weight: bold;
+}
+
+.MModer
+{
+    color:#2A5FFF;
+    font-weight: bold;
+}
+
+.Moder
+{
+    color:#00D0FF;
+    font-weight: normal;
+}
+
+.MEditor
+{
+    color:#FFDD00;
+    font-weight: normal;
+}
+
+.Editor
+{
+    color: #F4E009;
+    font-weight: normal;
+}
+
+.User
+{
+   color: #0881A3;
+   font-weight: normal; 
+}
+
+.Premium
+{
+   color: #758BCE;
+   font-weight: normal;
+}
+
+.Gooder
+{
+   color: #35CD44;
+   font-weight: normal;
+}
+
+.Helper
+{
+   color: #0068E7;
+   font-weight: normal;
+}
+
+.Writer
+{
+    color: #DEC100;
+    font-weight: normal;
+}
+
+.table
+{
+    border: 3px solid #4A4A4A;
+}
+
+body
+{
+    padding: 20px;
+    background-color: #90A0B2;
+    background-image: url(../files/images/background.jpg);
+}
+
+.copyright
+{
+    text-align: center;
+    font-size: 12px;
+    font-family: Courier New, Lucida Console, monospace;
+    color: #000000;
+    font-weight: bold;
+}
+
+.tableI
+{
+    border: 5px solid #4A4A4A;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
+#donate
+{
+    
+    padding-bottom: 10px;
+    
+}
+
+.PI
+{
+    
+    border: 5px solid #4A4A4A;
+    width: 250px;
+    text-align: center;
+    float: right;
+    
+}
+.news
+{
+    width: 750px;
+    margin: 6px auto 12px auto;
+    padding: 0 auto 0 auto;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.Hallo
+{
+    
+    text-align: center;
+    
+}
