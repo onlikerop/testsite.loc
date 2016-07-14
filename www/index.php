@@ -80,8 +80,12 @@ noauth:
 <li> <a href="http://testsite.loc/betta/newauth.php"><font size="4">Авторизация</font></a> </li>
 </ul>
 
-<ul class="red">
-<li> <a href="http://testsite.loc/admin"><font size="4">Админ-Панель</font></a> </li>
+<h3 class="blue">Панель администрирования</h3>
+<ul class="blue" id="table">
+<li> <a href="http://testsite.loc/pages/groups.php"><font size="4">Таблица групп</font></a> </li>
+<li> <a href="http://testsite.loc/pages/users.html"><font size="4">Таблица пользователей</font></a> </li>
+<li> <a href="http://testsite.loc/pages/setgroup.php"><font size="4">Выдача группы пользователю</font></a> </li>
+<li> <a href="http://testsite.loc/betta/setrank.php"><font size="4">Выдача титула пользователю</font></a> </li>
 </ul>
 <div class="news" id="news">
 <h2>Статьи нашего сайта:</h1>
