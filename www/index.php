@@ -87,6 +87,7 @@ noauth:
 <li> <a href="http://testsite.loc/pages/setgroup.php"><font size="4">Выдача группы пользователю</font></a> </li>
 <li> <a href="http://testsite.loc/betta/setrank.php"><font size="4">Выдача титула пользователю</font></a> </li>
 </ul>
+</div>
 <div class="news" id="news">
 <h2>Статьи нашего сайта:</h1>
 <br>
