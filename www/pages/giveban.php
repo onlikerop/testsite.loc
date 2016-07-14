@@ -7,13 +7,13 @@ if($_SESSION['auth'] == yes)
 if(isset($_POST['submit']))
 {    
 $login = $_POST['login'];
-$newgroup = $_POST['newgroup'];
+$ban = $_POST['status'];
 
     $connect = mysql_connect('localhost','root','1234567k') or die(mysql_error());
 mysql_select_db('testsite_users');
-$query = mysql_query("UPDATE users SET `group` = '$newgroup' WHERE login = '$login';") or die("Ошибка в записи, повторите попытку позже!");
+$query = mysql_query("UPDATE users SET status = '$ban' WHERE login = '$login';") or die("Ошибка в записи, повторите попытку позже!");
     $true = "yes";
-
+    $access = true;
     }
 }
 else
@@ -29,16 +29,15 @@ else
 <link href="http://testsite.loc/styles/toadminstyle.css" type="text/css" rel="stylesheet">
 </head>
 <?php 
-if($access == false)
+if($access = false)
 {
 goto noauth;
 } ?>
 <body>
-
 <?php if($true != "yes") { goto noauth; } ?>
-<p> <?php echo "Группа успешно изменена!"; ?> </p>
+<p> <?php echo "Статус успешно изменён!"; ?> </p>
 <?php noauth: ?>
-<p><?php  if($wrong == "yes") { echo "\nУ Вас не достаточно прав для просмотра данного раздела";} ?></p>
+<p><?php  if($true != "yes") { echo "\nУ Вас не достаточно прав для просмотра данного раздела";} ?></p>
 <br>
 <p class="back"><a href="http://testsite.loc">Вернуться на главную страницу</a></p>
 <br><br><br>
