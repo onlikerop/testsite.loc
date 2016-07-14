@@ -29,13 +29,13 @@ else
 <link href="http://testsite.loc/styles/toadminstyle.css" type="text/css" rel="stylesheet">
 </head>
 <?php 
-if($_SESSION['auth'] != "yes")
+if($access == false)
 {
 goto noauth;
 } ?>
 <body>
 
-<?php if(true != "yes") { goto noauth; } ?>
+<?php if($true != "yes") { goto noauth; } ?>
 <p> <?php echo "Группа успешно изменена!"; ?> </p>
 <?php noauth: ?>
 <p><?php  if($wrong == "yes") { echo "\nУ Вас не достаточно прав для просмотра данного раздела";} ?></p>
